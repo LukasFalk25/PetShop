@@ -1,0 +1,23 @@
+header{
+    background-color: rgba(77, 209, 0, 0.26);
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 25px;
+    font-size: 28px;
+}
+
+nav a{
+    color: cadetblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
