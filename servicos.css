@@ -1,23 +1,69 @@
 header{
-    background-color: rgba(77, 209, 0, 0.26);
+    background-color: rgb(203, 228, 213);
 }
-
 nav{
     position: absolute;
-    top: 0;
+    top: 100px;
     right: 0;
-    left: 0;
+    
 }
 
 nav li{
-    display: inline-block;
-    margin: 0 0 0 25px;
-    font-size: 28px;
+    display: inline ;
+   
 }
 
 nav a{
-    color: cadetblue;
+    color: rgb(76, 137, 16);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0 0 0 25px;
+    font-size: 28px;
+    
+    
+}
+nav a:hover{
+    color: rgb(252, 128, 52);
+}
+.box{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    margin: 1.5%;
+    border: 2px solid  rgb(76, 137, 16);
+    border-radius: 50px;
+}
+.servicos li:hover{
+    border-color: rgb(252, 128, 52);
+}
+.servicos h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.servicos h2:hover{
+   color: rgb(252, 128, 52);
+}
+.servicos .descricao{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.servicos .preco{
+    font-size: 25px;
+    
+}
+footer{
+    background-color: rgb(203, 228, 213);
+    text-align: center;
+    padding: 50%;
 }
