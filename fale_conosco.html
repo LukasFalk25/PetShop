@@ -29,7 +29,33 @@
             <label for="phone">Celular: </label>
             <input type="text" id="phone" class="input-text">
 
-            <input type="submit">
+            <label for="message">Mensagem</label>
+            <textarea cols="70" rows="10" id="message" class="input-text"></textarea>
+
+            <div>
+                <p>Como podemos entrar em contato?</p>
+                <label for="r_whatsapp">
+                    <input type="radio" name="contact" id="r_whatsapp" value="Whatsapp">Whatsapp
+                   
+                </label>
+
+                <label for="r_celular">
+                    <input type="radio" name="contact" id="r_celular" value="Celular">Celular
+                   
+                </label>
+
+                <label for="r_email">
+                    <input type="radio" name="contact" id="r_email" value="E-mail">E-mail
+                   
+                </label>
+            </div>
+
+            <label class="checkbox">
+               <input type="checkbox" id="news">Quero receber e-mails promocionais
+            </label>
+
+            <input type="submit" value="Enviar" class="enviar">
+            
         </form>
     </main>
 
