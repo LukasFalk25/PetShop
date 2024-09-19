@@ -11,7 +11,7 @@
     <header>
         <div class="box">
             <h1>
-                <img width="150px" src="Imagens/logo-pet-shop.png">
+                <img width="150px" src="Imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
             </h1>
            
         </div>
@@ -21,21 +21,21 @@
     <main>
         <form >
             <label for="name">Nome: </label>
-            <input type="text" id="name" class="input-text">
+            <input type="text" id="name" class="input-text" required>
 
             <label for="mail">E-mail: </label>
-            <input type="text" id="mail" class="input-text">
+            <input type="text" id="mail" class="input-text" required>
 
             <label for="phone">Celular: </label>
-            <input type="text" id="phone" class="input-text">
+            <input type="text" id="phone" class="input-text" required>
 
             <label for="message">Mensagem</label>
             <textarea cols="70" rows="10" id="message" class="input-text"></textarea>
 
-            <div>
-                <p>Como podemos entrar em contato?</p>
+            <fieldset>
+                <legend>Como podemos entrar em contato?</legend>
                 <label for="r_whatsapp">
-                    <input type="radio" name="contact" id="r_whatsapp" value="Whatsapp">Whatsapp
+                    <input type="radio" name="contact" id="r_whatsapp" value="Whatsapp" checked>Whatsapp
                    
                 </label>
 
@@ -48,19 +48,34 @@
                     <input type="radio" name="contact" id="r_email" value="E-mail">E-mail
                    
                 </label>
-            </div>
+            </fieldset>
 
             <label class="checkbox">
-               <input type="checkbox" id="news">Quero receber e-mails promocionais
+               <input type="checkbox" id="news" checked>Quero receber e-mails promocionais
             </label>
 
             <input type="submit" value="Enviar" class="enviar">
             
         </form>
+        <table>
+
+          <tr>
+            <th>Segunda à Sexta</th>
+            <th>Sábado</th>
+            <th>Domingo</th
+                
+                >
+          </tr>
+            <td>7h ás 20h</td>
+            <td>9h ás 18hs </td>
+            <td>Fechado</td>
+          
+        </table>
+
     </main>
 
     <footer>
-        <img width="100px" src="Imagens/logo-pet-shop.png">
+        <img width="100px" src="Imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
         <p>&copy Copyright 2024</p>
     </footer>
 
