@@ -1,16 +1,15 @@
 header{
     background-color: rgb(203, 228, 213);
 }
+
 nav{
     position: absolute;
     top: 100px;
     right: 0;
-    
 }
 
 nav li{
     display: inline ;
-   
 }
 
 nav a{
@@ -20,21 +19,41 @@ nav a{
     font-weight: bold;
     margin: 0 0 0 25px;
     font-size: 28px;
-    
-    
 }
+
 nav a:hover{
     color: rgb(252, 128, 52);
+}
+
+.destaque{
+    width: 100%;
+}
+
+.principal p {
+    margin: 0 0 15px;
+}
+
+.principal strong{
+    font-weight: bold;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    margin: 0 0 15px;
 }
 .box{
     width: 940px;
     margin: 0 auto;
     position: relative;
 }
+
 .servicos{
     width: 940px;
     margin: 0 auto;
 }
+
 .servicos li{
     display: inline-block;
     text-align: center;
@@ -43,46 +62,56 @@ nav a:hover{
     border: 2px solid  rgb(76, 137, 16);
     border-radius: 50px;
 }
+
 .servicos li:hover{
     border-color: rgb(252, 128, 52);
 }
+
 .servicos h2{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .servicos h2:hover{
    color: rgb(252, 128, 52);
 }
+
 .servicos .descricao{
     font-size: 18px;
     margin-bottom: 5px;
 }
+
 .servicos .preco{
     font-size: 25px;
-    
 }
+
 main{
     width: 940px;
     margin: 0 auto;
 }
+
 form{
     margin: 40px 0;
 }
+
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
 .input-text{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
+
 .checkbox{
     margin: 20px 0;
 }
+
 .enviar{
     width: 40%;
     padding: 15px 0;
@@ -95,23 +124,34 @@ form label, form legend{
     cursor: pointer;
     margin: 20px;
 }
+
 .enviar:hover{
     background: rgb(252, 128, 52) ;
 }
-table{
+
+table {
+    border: 1px;
     margin: 20px 0 40px;
 }
-th{
-    background-color: rgb(76, 137, 16);
-    color: aliceblue;
+
+th {
+    background: rgb(76, 137, 16);
+    color: white;
     font-weight: bold;
 }
-td, th{
-    border: 1px solid black ;
+
+table td, table th {
+    border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+.imagem_diferencial{
+    width: 60%;
+}
+
 footer{
     background-color: rgb(203, 228, 213);
     text-align: center;
-    padding: 50%;
+    padding: 50px;
 }
+
